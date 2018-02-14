@@ -1,0 +1,26 @@
+package temperature;
+
+import java.util.ArrayList;
+
+import java.util.Scanner;
+
+public class temperatureFahrenheit {
+
+	public static void main(String[] args) {
+		Scanner keyInput = new Scanner(System.in);
+
+		System.out.print("Please enter the temperature in Centigrade or temp <= -100.");
+
+		double tempC = keyInput.nextInt();
+		double tempF = ((9.0 / 5.0) * (tempC) + 32.0);
+
+	}
+
+	private static List<Integer> CalculatingTemp( int tempC, int tempF){
+
+	if(tempC >= -100)
+	{
+		System.out.println("Temperature: " + (tempF + " Degrees Fahrenheit and ") + (tempC + " Centigrade"));
+	}
+
+}}

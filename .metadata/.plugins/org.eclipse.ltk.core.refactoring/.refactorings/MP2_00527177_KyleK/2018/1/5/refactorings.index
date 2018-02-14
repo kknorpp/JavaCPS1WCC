@@ -1,0 +1,8 @@
+1517372631950	Extract method 'averageTemp'
+1517372643317	Rename local variable 'sumF'
+1517372655330	Rename local variable 'fahrenheit'
+1517372661832	Rename local variable 'listF'
+1517372667382	Inline local variable 'numF'
+1517372670371	Inline local variable 'averageF'
+1517372794953	Copy compilation unit
+1517375532635	Delete element

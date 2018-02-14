@@ -1,0 +1,8 @@
+package session6;
+
+public class DateDemo {
+	public static void main(String[] args) {
+		Date date1 = new Date();
+		date1.writeOutput();
+	}
+}

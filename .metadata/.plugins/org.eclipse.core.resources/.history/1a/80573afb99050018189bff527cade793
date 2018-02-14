@@ -1,0 +1,31 @@
+package tempFahrenheit;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class tempFinder {
+	public static void main(String[] args) {
+		Scanner keyInput = new Scanner(System.in);
+		System.out.println("Please enter the temperature in Centigrade or <= -100 to exit.");
+		
+		
+			
+
+			double tempC = keyInput.nextDouble();
+			double tempF = (9.0 / 5.0 * tempC + 32.0);
+			while(tempC > -100) {System.out.println("Temperature in F " + tempF + " temp in C " + tempC);
+			break;}
+		}
+
+		
+				 
+	}
+	
+
+
+		
+
+		
+		
+

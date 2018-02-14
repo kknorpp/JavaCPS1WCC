@@ -1,0 +1,11 @@
+package dateExampleCallingClasses;
+
+public class DateDemo2 {
+	public static void main(String[] args) {
+		Date date2 = new Date();
+		date2.month = "June";
+		date2.day = 17;
+		date2.year = 2018;
+		date2.writeOutput();
+	}
+}

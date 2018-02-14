@@ -1,0 +1,23 @@
+package dateExampleCallingClasses;
+
+public class Date2 {
+	private String month;
+	private int day;
+	private int year;
+
+	public void writeOutput() {
+		System.out.println(this.month + ", " + this.day + ", " + this.year);
+	}
+
+	public int getDay() {
+		return this.day;
+	}
+
+	public int getYear() {
+		return this.year;
+	}
+
+	public String getMonth() {
+		return this.month;
+	}
+}

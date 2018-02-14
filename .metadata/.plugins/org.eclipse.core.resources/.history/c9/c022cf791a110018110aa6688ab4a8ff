@@ -1,0 +1,15 @@
+package session6;
+
+/**
+ * @author Kyle
+ *
+ */
+public class DateDemo {
+	public static void main(String[] args) {
+		Date date1 = new Date();
+		date1.month = "June";
+		date1.day = 20;
+		date1.year = 2018;
+		date1.writeOutput();
+	}
+}

@@ -1,0 +1,11 @@
+package session6;
+
+public class Date {
+	private String month;
+	public int year;
+	public int day;
+
+	public void writeOutput() {
+		System.out.println(this.month + ", " + this.day + ", " + this.year);
+	}
+}

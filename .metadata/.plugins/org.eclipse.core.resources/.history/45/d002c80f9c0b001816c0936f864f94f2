@@ -1,0 +1,22 @@
+package classWork5;
+
+public class letterCombinationNestedLoop {
+	public static void main(String[] args) {
+		int i;
+		char letter;
+		char letter1;
+		char letter2, letter3;
+		for (letter = 'a'; letter <= 'z'; letter++) {
+
+			for (letter1 = 'a', i = 0; letter1 <= 'z'; letter1++, i++) {
+				if (i % 4 != 0) {
+					System.out.print(" " + letter + letter1 + " ");
+				} else {
+					System.out.print(" " + letter + letter1 + " ");
+				}
+				System.out.println();
+			}
+		}
+	}
+
+}

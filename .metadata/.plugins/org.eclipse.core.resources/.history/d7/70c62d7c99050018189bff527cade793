@@ -1,0 +1,40 @@
+package tempFahrenheit;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class tempFinder {
+	public static void main(String[] args) {
+		Scanner keyInput = new Scanner(System.in);
+		int sum = 0;
+		int i = 0;
+		tempC = keyInput.nextDouble();
+		
+		double tempC;
+		double tempF;
+		double aveC;
+		double aveF;
+		
+		
+		while (tempC > -100) {
+			
+
+			tempC = keyInput.nextDouble();
+			tempF = (9.0 / 5.0 * tempC + 32.0);
+			System.out.println("Temperature in F " + tempF + " temp in C " + tempC);
+		
+		}
+
+		
+				 }
+		
+	}
+	
+
+
+		
+
+		
+		
+

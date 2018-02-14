@@ -1,0 +1,3 @@
+1516762946880	Extract method 'calcuateFinalPay'
+1516763822569	Extract method 'determineOutcome'
+1516763884488	Extract local variable 'outcome'

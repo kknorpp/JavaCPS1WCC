@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;temperature&apos; to &apos;MP2_00527177_KyleK/src&apos;&#x0D;&#x0A;- Original project: &apos;Class_Session_3&apos;&#x0D;&#x0A;- Destination element: &apos;MP2_00527177_KyleK/src&apos;&#x0D;&#x0A;- Original element: &apos;Class_Session_3/src/temperature&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=MP2_00527177_KyleK/src" element1="/src&lt;temperature" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1517264118392" version="1.0"/>
+</session>

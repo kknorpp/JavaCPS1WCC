@@ -1,0 +1,12 @@
+package temperature;
+
+import java.util.Scanner;
+
+public class temperatureFahrenheit {
+
+	public static void main(String[] args) {
+
+	} 
+	private static List<Integer> calculatingTemp(int tempC; int tempF;)
+
+}

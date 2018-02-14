@@ -1,0 +1,28 @@
+package factorial;
+
+import java.util.Scanner;
+
+public class factorialmp2 {
+	public static void main(String[] args) {
+		Scanner keyInput = new Scanner(System.in);
+
+		System.out.println("Enter in N as an integer to see it\'s factorial.");
+		int number = keyInput.nextInt();
+		int i = 0;
+		long factorial = 1;
+		String response = null;
+
+		for (i = 1; i <= number; i++) {
+			factorial = (factorial * i);
+		}
+		i++;
+
+		System.out.println("Factorial = " + factorial);
+		System.out.println("Do you want to continue? (y/n):");
+
+		while (response.equals('y')) {
+			response = keyInput.next();
+		}
+
+	}
+}

@@ -1,0 +1,19 @@
+package dateExampleCallingClasses;
+
+public class Date2 {
+	private String month;
+	private int day;
+	private int year;
+
+	public void writeOutput()
+	{
+		System.out.println(month + ", " + day + ", " + year);
+	}
+	public int getDay() {
+		return day;
+}public int getYear() {
+	return year;
+}public String getMonth() { 
+	return month;
+}
+}
