@@ -1,9 +1,0 @@
-package session6;
-
-public class Date {
-public String month;
-public int year;
-public int day;
-
-public void 
-}
